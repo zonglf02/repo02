@@ -7,6 +7,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 sh 'printenv'
+                sh 'ls -l /tmp'
             }
         }
     }
